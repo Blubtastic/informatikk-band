@@ -2,7 +2,9 @@
   "name": "informatikk-band",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://blubtastic.github.io/informatikk-band/",
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "node-sass-chokidar": "^1.2.2",
     "npm-run-all": "^4.1.2",
     "react": "^16.3.2",
@@ -17,6 +19,8 @@
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }
