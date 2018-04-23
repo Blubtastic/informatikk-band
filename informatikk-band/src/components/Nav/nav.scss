@@ -1,0 +1,38 @@
+//Logo + links
+.row{
+  display: flex;
+  width: 1200px;
+  margin: auto;
+  max-width: 100%;
+}
+//Containers needed for alignment
+.logo-container{
+  width: 20%;
+  img{
+    height: 100px;
+    width: 100px;
+  }
+}
+.nav-container{
+  width: 80%;
+}
+//List of links
+.nav{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    li{
+      padding: 0px 10px;
+      a{
+        text-decoration: none;
+        font-size: 120%;
+        color: #333;
+      }
+    }
+  }
+}

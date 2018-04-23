@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+  max-width: 100%; }
+
+.logo-container {
+  width: 20%; }
+  .logo-container img {
+    height: 100px;
+    width: 100px; }
+
+.nav-container {
+  width: 80%; }
+
+.nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+  .nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none; }
+    .nav ul li {
+      padding: 0px 10px; }
+      .nav ul li a {
+        text-decoration: none;
+        font-size: 120%;
+        color: #333; }
