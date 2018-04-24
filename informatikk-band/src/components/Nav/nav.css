@@ -1,3 +1,37 @@
+.navbox {
+  margin: 0px;
+  position: absolute;
+  width: 100%;
+  background-color: none;
+  transition: background-color 0.5s, padding 0.3s, box-shadow 0.3s; }
+  .navbox div div a img {
+    transition: height 0.3s, width 0.3s; }
+  .navbox div div nav ul li a {
+    transition: font-size 0.3s; }
+
+.sticky {
+  margin: 0px;
+  width: 100%;
+  position: fixed;
+  left: 37.5%;
+  margin-left: -37.5%;
+  background-color: #fff;
+  z-index: 10;
+  box-shadow: 0 0 3px #ccc;
+  transition: background-color 0.5s, padding 0.3s, box-shadow 0.3s; }
+  .sticky div {
+    transition: padding 0.3s; }
+    .sticky div div nav ul {
+      line-height: 43px;
+      margin: 0px; }
+      .sticky div div nav ul li a {
+        font-size: 90%;
+        transition: font-size 0.3s; }
+    .sticky div div a img {
+      width: 40px;
+      height: 40px;
+      transition: height 0.3s, width 0.3s; }
+
 .row {
   display: flex;
   width: 1200px;
