@@ -4,10 +4,11 @@
   margin-top: 0px; }
 
 body {
-  font-family: 'Lato'; }
+  font-family: 'Open Sans'; }
 
 p {
-  line-height: 160%; }
+  line-height: 160%;
+  font-weight: 400; }
 
 h1 {
   text-align: center;
@@ -50,7 +51,7 @@ h1 {
   .content-block h1 {
     color: #6bb907; }
   .content-block p {
-    color: #ccc; }
+    color: #ddd; }
 
 .white-bg {
   background-color: #111 !important; }
