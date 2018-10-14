@@ -1,65 +1,27 @@
 //Logo + links
 .navbox{
   margin: 0px;
-  position: absolute;
+  padding-top: 40px;
   width: 100%;
   background-color: none;
-  transition: background-color 0.5s, padding 0.3s, box-shadow 0.3s;
+  //transition: background-color 0.5s, padding 0.3s, box-shadow 0.3s;
   div{
-    div{
-      a{
-        img{
-          transition: height 0.3s, width 0.3s;
-        }
-      }
-      nav{
-        ul{
-          li{
-            a{
-
-              transition: font-size 0.3s;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-.sticky{
-  margin: 0px;
-  width: 100%;
-  position: fixed;
-  left: 37.5%;
-  margin-left: -37.5%;
-  background-color: #fff;
-  z-index: 10;
-  box-shadow: 0 0 3px #ccc;
-  transition: background-color 0.5s, padding 0.3s, box-shadow 0.3s;
-  div{
-    transition: padding 0.3s;
     div{
       nav{
         ul{
-          line-height: 43px;
           margin: 0px;
           li{
             a{
-              font-size: 90%;
+              color: #111;
               transition: font-size 0.3s;
             }
           }
         }
       }
-      a{
-        img{
-          width: 40px;
-          height: 40px;
-          transition: height 0.3s, width 0.3s;
-        }
-      }
     }
   }
 }
+
 
 .row{
   display: flex;
@@ -69,10 +31,11 @@
 }
 //Containers needed for alignment
 .logo-container{
+  padding: 10px;
   width: 20%;
   img{
-    height: 100px;
-    width: 100px;
+    height: 35px;
+    width: 140px;
   }
 }
 .nav-container{
