@@ -41,20 +41,20 @@ export default class Slideshow extends Component {
   //RENDER
   render() {
     return(
-      <div className="section" id="bilder">
-        <div className="slideshowContainer">
-          <div className="sectionContent">
-            <img onClick={this.previousSlide} src={previous} alt="change slide"/>
-            <div className="slideContainer">
-              {this.generateSlides()}
-            </div>
-            <img onClick={this.nextSlide} src={next} alt="change slide"/>
+      <div className="section fillHeight" id="bilder">
+        <div className="slideshowContainer row">
+          <img onClick={this.previousSlide} src={previous} alt="change slide"/>
+          <div className="slideContainer">
+            {this.generateSlides()}
           </div>
+          <img onClick={this.nextSlide} src={next} alt="change slide"/>
+        </div>
 
-          <div className="mobileSlideshow mobile">
-            <SimpleSlider images={this.state.images} updateIndex={this.updateIndex} />
-          </div>
+        <div className="mobile mobileSlideshow ">
+          <SimpleSlider images={this.state.images} updateIndex={this.updateIndex} />
+        </div>
 
+          {/*
           <div className="horizontalAlign">
             {this.generateCircles()}
           </div>
@@ -62,7 +62,8 @@ export default class Slideshow extends Component {
             <h2 className="slideshowHeader">{this.state.names[this.state.currentIndex]}</h2>
             <p>{this.state.descriptions[this.state.currentIndex]}</p>
           </div>
-        </div>
+          */}
+
       </div>
     )
   }

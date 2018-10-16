@@ -17,7 +17,7 @@ export default class Nav extends Component {
               <ul>
                 <li><a href="#om-oss" >Om</a></li>
                 <li><a href="#musikkvideo" >Musikkvideo</a></li>
-                <li><a href="#bilder" >Bilder</a></li>
+                <li><a href="#kontakt" >Kontakt</a></li>
               </ul>
             </nav>
           </div>

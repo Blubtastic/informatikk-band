@@ -23,8 +23,8 @@ h1, h3{
 .cover-img{
   z-index: -10;
   width: 100%;
-  height: 650px;
-  background-image: url('./images/band.jpg');
+  height: 800px;
+  background-image: url('./images/band_black.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,6 +55,19 @@ hr{
   width: 1000px;
   max-width: 100%;
   padding: 80px 20px;
+}
+
+.fillHeight{
+  height: 100%;
+}
+
+.row{
+  display: flex;
+  flex-direction: row !important;
+}
+.column{
+  display: flex;
+  flex-direction: column !important;
 }
 
 .youtubeBackground{

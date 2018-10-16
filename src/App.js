@@ -7,7 +7,7 @@ import Home from './components/Home';
  //Can implement router here if i'm gonna add more pages
 class App extends Component {
   componentDidMount(){
-    document.title = "Informatikk Band";
+    document.title = "Output";
   }
 
   render() {

@@ -18,7 +18,6 @@ export default class Home extends Component {
           <AboutUs />
           <MusicVideo />
 
-
           <Footer />
         </div>
       </div>

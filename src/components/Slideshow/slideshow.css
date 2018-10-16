@@ -8,8 +8,11 @@
   justify-content: space-between;
   margin: auto;
   align-items: center;
-  width: 1450px;
-  max-width: 100%;}
+  position: relative;
+  top: -80px;
+  width: 1600px;
+  max-width: 100%;
+}
 
 .slideshowContainer img{
   width: 60px;
