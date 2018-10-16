@@ -1,3 +1,7 @@
+.mobile{
+  display: none;
+}
+
 .slideshowContainer{
   display: flex;
   flex-direction: row;
