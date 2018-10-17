@@ -119,8 +119,12 @@ hr{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 365px;
+  height: 500px;
+  max-width: 100%;
   flex-direction: column;
+}
+iframe{
+  max-width: 100%;
 }
 
 .content{
@@ -179,6 +183,7 @@ hr{
   height: 360px;
   background-color: #333333;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   p{

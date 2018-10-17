@@ -10,7 +10,7 @@ export default class Slideshow extends Component {
   constructor(props){
     super(props);
     this.state = {
-      images: ['output.jpg', 'members.png', 'guitarist.png', 'mathias.png'],
+      images: ['output.jpg', 'bendik.jpg', 'lars.png', 'martin.jpg', 'mathias.png'],
       indexes: [],
       //Lists must be same length as the images list.
       names: ["Tittel 1", "Tittel 1", "Tittel 1", "Tittel 1"],

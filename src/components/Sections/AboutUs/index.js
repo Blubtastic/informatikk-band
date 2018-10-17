@@ -8,11 +8,13 @@ export default class AboutUs extends Component {
         <div className="sectionContent">
           <h1>Hvem er vi?</h1>
           <p>
-            Output er Informatikk sitt linjeforeningsband feteste (og eneste) linjeforeningsband.
-            Vi ble stiftet tidlig 2018, og har gradvis bygd oss opp til å bli bandet vi er i dag gjennom hardt arbeid og store mengder pizza.
-            Bandet har nå av 8 medlemmer, som inkluderer en gitarist/vokalist, to vokalister, en bassist, gitarist, pianist, trommis og vår helt egne lydmann!
-            <br/><br/>
-            Vi har så langt spilt utallige konserter og vunnet flere priser enn vi kan telle, så hva som blir det neste er vanskelig å si.
+          Output er bandet tilhørende linjeforeningen Online, linjeforeningen for informatikk ved NTNU i Trondheim.
+          Bandet har eksistert siden høsten 2017, og har i skrivende stund 8 medlemmer.
+          <br/><br/>
+          Bandet opptrer regelmessig på Online sine arrangementer og sporadisk andre steder.
+          Vi holder til på NTNU Gløshaugen, og disponerer også våre øvingslokaler her. Vi spiller mye variert musikk, og beveger oss fort innom mange forskjellige sjangere i løpet av en opptreden.
+          <br/><br/>
+          Har du noen spørsmål, spiller du et instrument eller har du behov for god stemning på ditt arrangement? Kontakt oss gjerne på mail, band@online.ntnu.no
           </p>
         </div>
       </div>
