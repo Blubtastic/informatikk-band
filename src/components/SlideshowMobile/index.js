@@ -13,12 +13,12 @@ export default class SimpleSlider extends Component {
   render() {
     const settings = {
       dots: true,
+      arrows: false,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
       initialSlide: 0,
-      dots: false,
       //Get the index of the current image
       beforeChange: (current, next) => this.setState({ activeSlide: next }),
       afterChange: current => {this.setState({ activeSlide2: current }); this.props.updateIndex(current);}

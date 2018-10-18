@@ -42,7 +42,7 @@ export default class Slideshow extends Component {
   render() {
     return(
       <div className="section fillHeight" id="bilder">
-        <div className="slideshowContainer row">
+        <div className="slideshowContainer row desktop">
           <img onClick={this.previousSlide} src={previous} alt="change slide"/>
           <div className="slideContainer">
             {this.generateSlides()}
@@ -50,7 +50,7 @@ export default class Slideshow extends Component {
           <img onClick={this.nextSlide} src={next} alt="change slide"/>
         </div>
 
-        <div className="mobile mobileSlideshow ">
+        <div className="mobile SlideshowMobile">
           <SimpleSlider images={this.state.images} updateIndex={this.updateIndex} />
         </div>
 

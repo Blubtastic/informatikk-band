@@ -39,7 +39,7 @@ export default class MusicVideo extends Component {
             <div className="sectionContent musicVideo">
               <h1>Musikkvideo</h1>
               <p>Vårt første cover av Plug in Baby - Muse</p>
-              <div className="videoPlayer">
+              <div className="youTube">
                 <VideoPlayer/>
               </div>
             </div>

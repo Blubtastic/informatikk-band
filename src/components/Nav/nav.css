@@ -1,13 +1,24 @@
-.navbox {
-  margin: 0px;
-  padding-top: 40px;
-  width: 100%;
-  background-color: none; }
-  .navbox div div nav ul {
-    margin: 0px; }
-    .navbox div div nav ul li a {
-      color: #111;
-      transition: font-size 0.3s; }
+.navbox ul {
+  margin: 0px; }
+  .navbox ul li a {
+    color: #111;
+    transition: font-size 0.3s; }
+
+@media only screen and (max-width: 799px) {
+  .desktopNav {
+    display: none !important; }
+  .mobileNav {
+    display: none !important; } }
+
+@media only screen and (min-width: 800px) {
+  .mobileNav {
+    display: none !important; } }
+
+.desktopNav {
+  padding-top: 40px; }
+
+.mobileNav {
+  background-color: #aaa; }
 
 .row {
   display: flex;
