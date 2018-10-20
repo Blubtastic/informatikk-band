@@ -1,35 +1,47 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
 class SimpleMap extends Component {
   static defaultProps = {
     center: {
-      lat: 59.95,
-      lng: 30.33
+      lat: 63.416323,
+      lng: 10.402961
     },
-    zoom: 11
+    zoom: 15,
   };
 
   render() {
+    function renderMarkers(map, maps) {
+      let marker = new maps.Marker({
+        position: {lat: 63.416323, lng: 10.402961},
+        map,
+        title: '',
+      });
+    }
+
+    function createMapOptions (maps) {
+      return {
+        panControl: false,
+        mapTypeControl: false,
+        scrollwheel: false,
+        fullscreenControl: false,
+        zoomControl: false,
+        styles: [{ stylers: [{ 'saturation': -100 }, { 'gamma': 0.2 }, { 'lightness': -40 }] }]
+      }
+    }
     return (
       // Important! Always set the container height explicitly
-      <div style={{ height: '100vh', width: '100%' }}>
+      <div className="footerMap">
         <GoogleMapReact
-          bootstrapURLKeys={{ key: /* YOUR KEY HERE */ }}
+          options={createMapOptions}
+          bootstrapURLKeys={{ key: 'AIzaSyCmG4SWnoWtnwPBqp_g9EjeopZ8jVGVnY0'}}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
+          onGoogleApiLoaded={({map, maps}) => renderMarkers(map, maps)}
         >
-          <AnyReactComponent
-            lat={59.955413}
-            lng={30.337844}
-            text={'Kreyser Avrora'}
-          />
         </GoogleMapReact>
       </div>
     );
   }
 }
-
 export default SimpleMap;

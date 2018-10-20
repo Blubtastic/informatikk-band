@@ -13,6 +13,7 @@ export default class SimpleSlider extends Component {
   render() {
     const settings = {
       dots: true,
+      autoplay: false,
       arrows: false,
       infinite: true,
       speed: 500,

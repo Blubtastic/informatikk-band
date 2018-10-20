@@ -24,7 +24,7 @@ export default class MusicVideo extends Component {
               <p>Vårt første cover av Plug in Baby - Muse</p>
               <div className="videoPlayer">
                 <div onClick={()=>{ this.setState({showVideo: true}) }}><img src={playIcon} alt="play"/></div>
-                <h3>PLAY VIDEO</h3>
+                <h3>SPILL VIDEO</h3>
               </div>
             </div>
           </div>
