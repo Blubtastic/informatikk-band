@@ -8,15 +8,13 @@ export default class SimpleSlider extends Component {
     activeSlide2: 0
   }
 
-
-
   render() {
     const settings = {
       dots: true,
       autoplay: false,
-      arrows: false,
-      infinite: true,
       speed: 500,
+      arrows: true,
+      infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
       initialSlide: 0,
@@ -24,13 +22,11 @@ export default class SimpleSlider extends Component {
       beforeChange: (current, next) => this.setState({ activeSlide: next }),
       afterChange: current => {this.setState({ activeSlide2: current }); this.props.updateIndex(current);}
     };
-
     //Must import the images. Creates a list of imported images.
     var imageUrls = [];
     for (let x = 0; x < this.props.images.length; x++){
       imageUrls.push(require('../../images/slideshow/' + this.props.images[x]))
     }
-
     return (
       <div>
         <Slider {...settings}>

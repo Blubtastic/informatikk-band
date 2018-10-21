@@ -18,6 +18,22 @@
 .slick-dots{
   position: static !important;
 }
+.slick-next {
+  right: 20px;
+  z-index: 5;
+}
+.slick-prev {
+  left: 20px;
+  z-index: 5;
+}
+.slick-prev:before,
+.slick-next:before {
+  z-index: 5;
+  height: 21px;
+  width: 21px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
 
 .slideshowContainer{
   display: flex;

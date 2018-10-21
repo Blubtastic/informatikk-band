@@ -21,10 +21,12 @@ export default class MusicVideo extends Component {
           <div className="shadedDark">
             <div className="sectionContent musicVideo">
               <h1>Musikkvideo</h1>
-              <p>Vårt første cover av Plug in Baby - Muse</p>
-              <div className="videoPlayer">
-                <div onClick={()=>{ this.setState({showVideo: true}) }}><img src={playIcon} alt="play"/></div>
-                <h3>SPILL VIDEO</h3>
+              <p>Første cover av Plug in Baby - Muse</p>
+              <div className="playButton">
+                <div onClick={()=>{ this.setState({showVideo: true}) }}>
+                  <img src={playIcon} alt="play"/>
+                  <h3>SPILL VIDEO</h3>
+                </div>
               </div>
             </div>
           </div>
@@ -34,12 +36,12 @@ export default class MusicVideo extends Component {
     }
     else{
       return (
-        <div className="section youtubeBackground " id="om-oss">
+        <div className="section youtubeBackground" id="musikkvideo">
           <div className="shadedDarker">
             <div className="sectionContent musicVideo">
               <h1>Musikkvideo</h1>
-              <p>Vårt første cover av Plug in Baby - Muse</p>
-              <div className="youTube">
+              <p>Første cover av Plug in Baby - Muse</p>
+              <div className="youTubeContainer">
                 <VideoPlayer/>
               </div>
             </div>
