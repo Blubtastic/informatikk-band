@@ -84,6 +84,12 @@ hr{
   display: flex;
   flex-direction: column !important;
 }
+@media only screen and (max-width: 799px)   {
+  .aboutUs{
+    padding-top: 55px !important;
+  }
+}
+
 
 .youtubeBackground{
   background-color: #666;

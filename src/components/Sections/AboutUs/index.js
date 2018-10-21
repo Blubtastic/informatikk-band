@@ -5,7 +5,7 @@ export default class AboutUs extends Component {
   render() {
     return(
       <div className="section" id="om-oss">
-        <div className="sectionContent">
+        <div className="sectionContent aboutUs">
           <h1>Hvem er vi?</h1>
           <p>
           Output er bandet tilhørende linjeforeningen Online, linjeforeningen for informatikk ved NTNU i Trondheim.
