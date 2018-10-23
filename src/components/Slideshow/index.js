@@ -3,8 +3,8 @@ import React, {Component} from 'react'
 import Slide from './slide.js';
 import SimpleSlider from '../SlideshowMobile';
 
-import previous from '../../images/leftIcon.png'
-import next from '../../images/rightIcon.png'
+import previous from '../../images/arrowTransparentLeft.png'
+import next from '../../images/arrowTransparentRight.png'
 
 export default class Slideshow extends Component {
   constructor(props){

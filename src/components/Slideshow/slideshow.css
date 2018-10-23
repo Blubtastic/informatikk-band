@@ -40,14 +40,17 @@
   align-items: center;
   position: relative;
   top: -80px;
-  width: 1600px;
+  width: 1500px;
   max-width: 100%;
 }
 
 .slideshowContainer > img{
-  width: 80px;
+  width: 50px;
   padding: 15px;
-  opacity: 0.75;
+  opacity: 0.8;
+}
+.slideshowContainer > img:hover{
+  cursor: pointer;
 }
 .slideContainer {
   position: relative;
@@ -55,7 +58,7 @@
   justify-content: center;
   align-items: center;
   height: 450px;
-  width: 1300px;
+  width: 1340px;
   max-width: 100%; }
 
 .slide img {
@@ -94,7 +97,9 @@
   left: 0;
   z-index: 2;
   transition: width 0.5s, height 0.5s, left 0.5s, visibility 0.5s, opacity 0.5s; }
-
+.image0:hover, .image2:hover{
+  cursor: pointer;
+}
 .image1 {
   width: 45%;
   visibility: visible;
