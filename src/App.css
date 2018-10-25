@@ -34,7 +34,8 @@ a {
   height: 800px;
   background-image: url("./images/band_black.jpg");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
   .cover-img h1 {
     position: relative;
     top: 180px;
